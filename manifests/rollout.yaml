@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/crispy25/ci_cd_lab:latest
+          image: ghcr.io/crispy25/go-simple-webserver@sha256:16b8b6f0ecef59c714bb7509933f935be75d31de40bca538b089fc76dfc0e51c
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
